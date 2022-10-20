@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showMap(View v)
     {
-        Uri uri = Uri.parse("geo: -6.973818, 110.476873");
+        Uri uri = Uri.parse("https://www.google.com/maps/place/Jl.+Sumur+Adem,+Kec.+Genuk,+Kota+Semarang,+Jawa+Tengah+50115/@-6.973875,110.4757294,17z/data=!3m1!4b1!4m5!3m4!1s0x2e708d2b4014b3e1:0x5803bffa1b740e49!8m2!3d-6.973875!4d110.4779181");
         Intent map = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(map);
     }
